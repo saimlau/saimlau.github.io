@@ -1,0 +1,344 @@
+baseURL: "https://saimailau.com"
+languageCode: "en-us"
+title: "Saimai Lau"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Saimai Lau"
+  description: "Saimai Lau - Robotics & Controls Researcher at Stanford University"
+  favicon: "/images/sml_icon.svg"
+  useBootstrapCDN: false
+  mathjax: true
+  animate: true
+
+  color:
+    textColor: "#2E1A1A"
+    secondaryTextColor: "#6B4C4C"
+    textLinkColor: "#8C1515"
+    backgroundColor: "#FDF6F4"
+    secondaryBackgroundColor: "#F5E8E4"
+    primaryColor: "#8C1515"
+    secondaryColor: "#F5E8E4"
+
+  theme:
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Saimai Lau"
+    brandLogo: "/images/sml_icon.svg"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Saimai Lau."
+    subtitle: "Robotics, Controls & Human-Centered Systems"
+    content: |-
+      M.S. student in Mechanical Engineering at Stanford University. I develop autonomous and interactive robotic systems through control theory, state estimation, and hands-on experimentation — and apply the same tools to biological systems, from gut microbial dynamics to inflammatory disease treatment. My long-term goal is to advance human-centered robotics for physical assistance, movement augmentation, and rehabilitation.
+    image: /images/me.png
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "CV"
+      url: /files/Saimai_CV.pdf
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/saimlau
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/saimai-lau-4209ab271
+        - icon: fas fa-envelope
+          url: mailto:smlau@stanford.edu
+        - icon: fas fa-graduation-cap
+          url: https://scholar.google.com
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    imageCaption: "DiDi (~2008–2023), my best friend."
+    content: |-
+      I am a Master's student in Mechanical Engineering at Stanford University, advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research). I completed dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
+
+      My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems. I am currently applying to PhD programs for Fall 2026.
+
+      Originally from Hong Kong, I speak Cantonese and Mandarin natively alongside English. Outside of research, I rebuilt my secondary school's robotics team and established its first STEM club and makerspace.
+    skills:
+      enable: true
+      title: "Technical skills:"
+      items:
+        - "Python"
+        - "ROS 2"
+        - "MATLAB"
+        - "C++"
+        - "Julia"
+        - "PyTorch"
+        - "MuJoCo"
+        - "SOLIDWORKS"
+        - "LaTeX"
+        - "Arduino"
+
+  # Experience (Research)
+  experience:
+    enable: true
+    title: "Research Experience"
+    items:
+      - company: "Mayalu Lab"
+        companyUrl: "https://mayalulab.stanford.edu/"
+        jobs:
+          - name: "Graduate Researcher"
+            date: "Sep 2024 - Present"
+            content: |-
+              Stanford Mechanical Engineering -- Advisor: Prof. Michaelle Mayalu
+
+              - Co-authored **"Optimal Control Strategies for Cutaneous Inflammatory Disease Treatment Using a Predictive Multi-scale Model,"** accepted at American Control Conference (ACC) 2026.
+              - Designed and implemented a Pontryagin-based hybrid optimal-control framework combining impulsive phototherapy with continuous probiotics for a 5-state ODE model of gut-skin-immune dynamics.
+              - Currently building a species-level gut microbial ODE model from cross-sectional shotgun metagenomics data using MICOM flux-balance analysis to infer growth rates, Dirichlet synthetic sampling for data augmentation, and Hill-function ODE fitting — replacing the hand-tuned lumped model from the ACC paper with a data-driven plant model for optimal treatment design.
+
+      - company: "MURO Lab"
+        companyUrl: "http://muro.ucsd.edu/"
+        jobs:
+          - name: "Undergraduate Researcher"
+            date: "Jun 2023 - Jun 2024"
+            content: |-
+              UC San Diego -- Advisor: Prof. Sonia Martinez
+
+              - Implemented distributed MEKF-SLAM and cyclic-pursuit coordination algorithms on TurtleBot4s using ROS 2, LiDAR, IMU, RGB-D cameras, and Marvelmind UWB beacons.
+              - Developed the ROS 2 implementation for distributed Gaussian Variational Inference (DGVI) mapping on multi-robot teams.
+              - Co-presented poster: **"Distributed Variational Inference for Online Supervised Learning"** at the 2023 Southern California Robotics Symposium, UC Irvine.
+
+      - company: "Boomerang Aerodynamics Research"
+        companyUrl: ""
+        jobs:
+          - name: "Undergraduate Researcher"
+            date: "Jan 2023 - Jun 2024"
+            content: |-
+              UC San Diego -- Advisor: Prof. Prasad Gudem
+
+              - Derived analytical expressions for lift, drag, and torque in tribladder boomerang designs with systematic wing offsets.
+              - Parametric CAD in SOLIDWORKS; field validation via UWB positioning and drone-based 3D trajectory tracking.
+
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "M.S. Mechanical Engineering"
+        school:
+          name: "Stanford University"
+          url: "https://me.stanford.edu/"
+        date: "Sep 2024 - Present"
+        GPA: "3.88"
+        content: |-
+          **Depth:** Robotics & Kinematics | **Breadth:** Biomechanical Engineering, Automatic Controls
+
+          Key coursework: Machine Learning (Andrew Ng), Decision Making Under Uncertainty (Kochenderfer), Robot Autonomy (Bohg/Schwager), State Estimation & Filtering (Schwager), Optimal & Learning-Based Control (Pavone), Design & Control of Haptic Systems (Okamura), Biomechanics of Movement (Delp), Spectral Methods (Moin), Computer Graphics & Simulation (James/Liu), Soft Robotics (Zhao), Collaborative Robotics (Kennedy), FEA (Lew).
+
+      - title: "B.S. Mechanical Engineering (Robotics & Controls) & B.S. Mathematics-Applied Science"
+        school:
+          name: "University of California San Diego"
+          url: "https://ucsd.edu/"
+        date: "Aug 2021 - Jun 2024"
+        GPA: "3.95 -- Magna Cum Laude"
+        content: |-
+          Completed dual degrees (ME + Mathematics, Applied Science) in **three years** with **Provost Honors every quarter**. 258 quarter units total, consistently taking 24-28 units/quarter (7-8 courses vs. the standard 4-5). Near-straight A+ in core engineering and mathematics courses.
+
+          Key coursework: Linear Control, Signals & Systems, Embedded Control & Robotics, Spacecraft Guidance, Intro to Autonomous Vehicles, ML Algorithms, Stochastic Processes, Numerical Analysis, Real Analysis, Probability.
+
+  # Projects
+  projects:
+    enable: true
+    items:
+      - title: "Voice-Controlled Bimanual Pick-and-Place Robot"
+        content: |-
+          Full-stack ROS 2 system for a bimanual mobile manipulator with voice commands (GCP STT), SAM3 object tracking, AnyGrasp grasp detection, LLM-based autonomous reasoning (Claude AI commander), and 3-phase PID navigation. MuJoCo simulation with custom ArUco scenes.
+        image: /images/projects/me326.png
+        badges:
+          - "ROS 2"
+          - "Python"
+          - "MuJoCo"
+          - "SAM3"
+          - "AnyGrasp"
+          - "LLM"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/saimlau
+
+      - title: "Optimal Control for Psoriasis Treatment"
+        content: |-
+          Hybrid impulsive/continuous optimal control via Pontryagin's Maximum Principle for a 5-state ODE model coupling immune-skin dynamics with gut microbiome. Forward-backward sweep algorithm. Accepted at American Control Conference (ACC) 2026.
+        image: /images/projects/fig5_combined.svg
+        badges:
+          - "Python"
+          - "Optimal Control"
+          - "PMP"
+          - "ODE Modeling"
+
+      - title: "Haptic Brick Breaker"
+        content: |-
+          2-DOF haptic game controller using a Peaucellier-Lipkin 8-bar linkage with dual motors for paddle translation and rotation. Proxy-based force rendering, vibromotor feedback, and a Processing game engine. Demonstrated at demo day with 22 players.
+        image: /images/projects/me327.png
+        badges:
+          - "Arduino"
+          - "Processing"
+          - "Julia"
+          - "Haptics"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/saimlau/SP25ME327Team17
+          - icon: fas fa-globe
+            url: https://charm.stanford.edu/ME327/2025-Group17
+
+      - title: "Autonomous Tennis Ball Retriever"
+        content: |-
+          Autonomous RC car using YOLO object detection on OAK-D stereo camera, LQR path tracking with cubic spline smoothing, and IMU+VESC odometry on Jetson Nano. Full ROS 2 pipeline. Pivoted from GNSS to odometry after discovering camera-GPS interference.
+        image: /images/projects/mae148.png
+        badges:
+          - "ROS 2"
+          - "YOLO"
+          - "LQR"
+          - "Jetson Nano"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/cynthiadont/MAE-148-Spring-2024-Team-5-Final-Project
+
+      - title: "Ropeless Fishing Gear Tracker"
+        content: |-
+          Underwater GPS tracking and radio beacon system for ropeless fishing traps, rated to 1,000 ft depth. Arduino Nano ESP32 + NEO-6M GPS with BLE smartphone app, LoRa 915 MHz surface beacon. PVC pressure vessels tested to 1,100 psi. Sponsored by Sub Sea Sonics.
+        image: /images/projects/tracker.png
+        badges:
+          - "ESP32"
+          - "GPS"
+          - "LoRa"
+          - "BLE"
+          - "Android"
+        links:
+          - icon: fas fa-globe
+            url: https://sites.google.com/ucsd.edu/mae-156b-2024-winter-team-11/home
+
+      - title: "Multi-Robot Distributed SLAM"
+        content: |-
+          Implemented MEKF-based localization fusing IMU + UWB beacons, distributed Gaussian Variational Inference for Bayesian occupancy mapping, and cyclic pursuit formation control on TurtleBot4 teams.
+        image: /images/projects/muro.png
+        badges:
+          - "ROS 2"
+          - "MEKF"
+          - "GVI"
+          - "TurtleBot4"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/saimlau/roboticsLabCodes
+
+      - title: "Boomerang Aerodynamics"
+        content: |-
+          Derived analytical expressions for lift, drag, and torque in tribladder boomerang designs with systematic wing offsets. Parametric CAD in SOLIDWORKS; field validation via UWB positioning and drone-based 3D trajectory tracking.
+        image: /images/projects/boomerangs.jpeg
+        badges:
+          - "SOLIDWORKS"
+          - "MATLAB"
+          - "UWB"
+          - "Aerodynamics"
+
+  # Achievements / Publications
+  achievements:
+    enable: true
+    title: "Publications & Awards"
+    items:
+      - title: "American Control Conference (ACC) 2026 (accepted)"
+        content: |-
+          Gowri P., **Lau S.**, Mayalu M.N. "Optimal Control Strategies for Cutaneous Inflammatory Disease Treatment Using a Predictive Multi-scale Model." American Control Conference, 2026.
+      - title: "SoCal Robotics Symposium 2023"
+        content: |-
+          Paritosh P., **Lau S.**, Atanasov N., Martinez S. "Distributed Variational Inference for Online Supervised Learning." Poster presentation, UC Irvine.
+      - title: "UCSD Provost Honors (2021-2024)"
+        content: "Every quarter for three consecutive years. Magna Cum Laude, dual B.S. in ME + Mathematics."
+      - title: "HK IVE Youth EV Design -- 3rd Place (2020)"
+        content: "Electric vehicle design competition in Hong Kong."
+      - title: "HK PolyU Robotic Challenge -- 2nd Place (2018)"
+        content: "Robotics competition at Hong Kong Polytechnic University."
+      - title: "ARL Korea Championship -- Best Structural Design (2017)"
+        content: "Best Structural Design award at the Asia Robotics League Korea Championship."
+
+  # Contact
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: |-
+      I'm always happy to discuss research, collaboration opportunities, or just chat about robotics and controls. Feel free to reach out!
+    btnName: Email me
+    btnLink: mailto:smlau@stanford.edu
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/saimlau
+      linkedin: https://linkedin.com/in/saimai-lau-4209ab271
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
