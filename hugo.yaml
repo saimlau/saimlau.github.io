@@ -205,6 +205,8 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/saimlau
+          - icon: fas fa-globe
+            url: https://alazc.github.io/scooping/
 
       - title: "Optimal Control for Psoriasis Treatment"
         content: |-
