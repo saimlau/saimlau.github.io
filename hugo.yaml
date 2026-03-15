@@ -98,7 +98,6 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.png"
-    imageCaption: "DiDi (~2008–2023), my best friend."
     content: |-
       I am a Master's student in Mechanical Engineering at Stanford University, advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research). I completed dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
 
