@@ -2,6 +2,7 @@
 title: "SchedWall Privacy Policy"
 date: 2026-03-17
 draft: false
+tags: []
 ---
 
 # Privacy Policy for SchedWall
