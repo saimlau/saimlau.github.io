@@ -203,7 +203,7 @@ params:
           - "LLM"
         links:
           - icon: fab fa-github
-            url: https://github.com/saimlau
+            url: https://github.com/saimlau/wi26me326team2
           - icon: fas fa-globe
             url: https://alazc.github.io/scooping/
 
