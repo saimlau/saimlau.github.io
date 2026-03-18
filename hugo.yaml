@@ -190,6 +190,22 @@ params:
   projects:
     enable: true
     items:
+      - title: "SchedWall — Schedule Wallpaper App"
+        content: |-
+          Android app (Kotlin/Jetpack Compose) that turns weekly schedules into phone wallpapers. Features calendar sync, ICS import/export, AI photo scanning (Claude/GPT-4o/Gemini), customizable themes, background image overlay with crop/zoom/rotate, multi-day events, timezone support, and 7-language localization. Published on Google Play.
+        image: /images/projects/schedwall.png
+        badges:
+          - "Kotlin"
+          - "Jetpack Compose"
+          - "Android"
+          - "Canvas"
+          - "WorkManager"
+        links:
+          - icon: fas fa-globe
+            url: https://saimailau.com/schedwall/
+          - icon: fas fa-shield-alt
+            url: https://saimailau.com/privacy-schedwall/
+
       - title: "Voice-Controlled Bimanual Pick-and-Place Robot"
         content: |-
           Full-stack ROS 2 system for a bimanual mobile manipulator with voice commands (GCP STT), SAM3 object tracking, AnyGrasp grasp detection, LLM-based autonomous reasoning (Claude AI commander), and 3-phase PID navigation. MuJoCo simulation with custom ArUco scenes.
