@@ -55,4 +55,4 @@ This privacy policy may be updated from time to time. Changes will be posted on 
 
 ## Contact
 
-If you have questions about this privacy policy, contact: **smlau@stanford.edu**
+If you have questions about this privacy policy, contact: **smlau2003@gmail.com**

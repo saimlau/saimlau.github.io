@@ -169,4 +169,4 @@ SchedWall stores everything **locally on your device**. No account required, no 
 
 ## Support
 
-For bug reports and feature requests: [smlau@stanford.edu](mailto:smlau@stanford.edu)
+For bug reports and feature requests: [smlau2003@gmail.com](mailto:smlau2003@gmail.com)
