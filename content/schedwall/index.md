@@ -13,7 +13,7 @@ tags: []
 
 ## Getting Started
 
-1. **Install** SchedWall from Google Play
+1. **Install** SchedWall from [Google Play](https://play.google.com/store/apps/details?id=com.saimailau.schedulewall) (or [join the testing program](https://play.google.com/apps/testing/com.saimailau.schedulewall))
 2. **Add your first event** by tapping the **+** button
 3. Fill in the title, location, day, and time
 4. Your schedule appears in the wallpaper preview

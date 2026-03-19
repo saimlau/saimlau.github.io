@@ -201,10 +201,10 @@ params:
           - "Canvas"
           - "WorkManager"
         links:
-          - icon: fas fa-globe
+          - icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.saimailau.schedulewall
+          - icon: fas fa-book
             url: https://saimailau.com/schedwall/
-          - icon: fas fa-shield-alt
-            url: https://saimailau.com/privacy-schedwall/
 
       - title: "Voice-Controlled Bimanual Pick-and-Place Robot"
         content: |-
