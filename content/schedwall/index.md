@@ -169,4 +169,4 @@ SchedWall stores everything **locally on your device**. No account required, no 
 
 ## Support
 
-For bug reports and feature requests: [smlau2003@gmail.com](mailto:smlau2003@gmail.com)
+For bug reports and feature requests: [Feedback Form](https://forms.gle/zqJoKSh3BDZhxsTf7) or email [smlau2003@gmail.com](mailto:smlau2003@gmail.com)
