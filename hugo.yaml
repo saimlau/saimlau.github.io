@@ -206,7 +206,7 @@ params:
           - icon: fas fa-book
             url: https://saimailau.com/schedwall/
 
-      - title: "Cosmic Farm — Idle Clicker with an AI Game Master"
+      - title: "Cosmic Farm — Idle Clicker with an AI (MOMDP) Game Master"
         content: |-
           Web-based idle/clicker game where an AI game master observes your play style and adapts the experience in real-time using a MOMDP (Mixed Observability MDP) with Bayesian belief updates. Features Nova, an AI overseer character that comments on your behavior, a branching 4-chapter storyline with 3 endings, tech tree with 37 research upgrades, synergy and achievement systems, and 12 producer tiers scaling from wheat fields to cosmic nexuses.
         image: /images/projects/cosmic-farm.png
