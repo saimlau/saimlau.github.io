@@ -87,7 +87,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/saimlau
         - icon: fab fa-linkedin
-          url: https://linkedin.com/in/saimai-lau-4209ab271
+          url: https://linkedin.com/in/saimailau
         - icon: fas fa-envelope
           url: mailto:smlau@stanford.edu
         - icon: fas fa-graduation-cap
@@ -169,7 +169,7 @@ params:
           name: "Stanford University"
           url: "https://me.stanford.edu/"
         date: "Sep 2024 - Present"
-        GPA: "3.88"
+        GPA: "3.90"
         content: |-
           **Depth:** Robotics & Kinematics | **Breadth:** Biomechanical Engineering, Automatic Controls
 
@@ -352,7 +352,7 @@ params:
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/saimlau
-      linkedin: https://linkedin.com/in/saimai-lau-4209ab271
+      linkedin: https://linkedin.com/in/saimailau
 
   listPages:
     disableFeaturedImage: false
