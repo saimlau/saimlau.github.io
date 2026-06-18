@@ -72,7 +72,7 @@ params:
     title: "Saimai Lau."
     subtitle: "Robotics, Controls & Human-Centered Systems"
     content: |-
-      M.S. student in Mechanical Engineering at Stanford University. I develop autonomous and interactive robotic systems through control theory, state estimation, and hands-on experimentation — and apply the same tools to biological systems, from gut microbial dynamics to inflammatory disease treatment. My long-term goal is to advance human-centered robotics for physical assistance, movement augmentation, and rehabilitation.
+      Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the Osteo Engineering Lab. I develop autonomous and interactive robotic systems through control theory, state estimation, and hands-on experimentation — and apply the same tools to biological systems, from gut microbial dynamics to inflammatory disease treatment. My long-term goal is to advance human-centered robotics for physical assistance, movement augmentation, and rehabilitation.
     image: /images/me.png
     bottomImage:
       enable: true
@@ -99,9 +99,9 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a Master's student in Mechanical Engineering at Stanford University, advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research). I completed dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
+      I am a Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the [Osteo Engineering Lab](http://www.osteoengineering.com/) with [Prof. David Dean](http://www.osteoengineering.com/) on the Bendy Bot project. I completed my M.S. in Mechanical Engineering at Stanford University (GPA 3.91), advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research), and dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
 
-      My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems. I am currently applying to PhD programs for Fall 2026.
+      My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems.
 
       Born and raised in Hong Kong with Taiwanese roots, I speak Cantonese and Mandarin natively alongside English. Outside of research, I rebuilt my secondary school's robotics team and established its first STEM club and makerspace.
     skills:
@@ -124,17 +124,38 @@ params:
     enable: true
     title: "Research Experience"
     items:
+      - company: "Osteo Engineering Lab"
+        companyUrl: "http://www.osteoengineering.com/"
+        jobs:
+          - name: "Graduate Research Assistant"
+            date: "Jun 2026 - Present"
+            content: |-
+              UW–Madison Mechanical Engineering -- Advisor: Prof. David Dean
+
+              - Designing controls for the **Bendy Bot**, a robotic system for patient-specific bone fixation plate bending, in collaboration with the HAMMER manufacturing research community.
+
+      - company: "ILIAD Lab"
+        companyUrl: "https://iliad.stanford.edu/"
+        jobs:
+          - name: "Graduate Researcher"
+            date: "Mar 2026 - Jun 2026"
+            content: |-
+              Stanford Computer Science -- with PhD student Jennifer Grannen (Advisor: Prof. Dorsa Sadigh)
+
+              - Co-authored **"Overcoming Distribution Shifts with Autonomous Embodied Data Collection,"** presented at the IEEE ICRA 2026 Workshop *Beyond Teleop*.
+              - Built an autonomous robot data-collection pipeline (TidyBot++ mobile base + Franka FR3 arm + iPhone RGBD) using ROS 2 and multimodal LLMs to target distribution gaps for fine-tuning trajectory-conditioned models.
+
       - company: "Mayalu Lab"
         companyUrl: "https://mayalulab.stanford.edu/"
         jobs:
           - name: "Graduate Researcher"
-            date: "Sep 2024 - Present"
+            date: "Sep 2024 - Jun 2026"
             content: |-
               Stanford Mechanical Engineering -- Advisor: Prof. Michaelle Mayalu
 
-              - Co-authored **"Optimal Control Strategies for Cutaneous Inflammatory Disease Treatment Using a Predictive Multi-scale Model,"** accepted at American Control Conference (ACC) 2026.
+              - Co-authored **"Optimal Control Strategies for Cutaneous Inflammatory Disease Treatment Using a Predictive Multi-scale Model,"** presented at the American Control Conference (ACC) 2026.
               - Designed and implemented a Pontryagin-based hybrid optimal-control framework combining impulsive phototherapy with continuous probiotics for a 5-state ODE model of gut-skin-immune dynamics.
-              - Currently building a species-level gut microbial ODE model from cross-sectional shotgun metagenomics data using MICOM flux-balance analysis to infer growth rates, Dirichlet synthetic sampling for data augmentation, and Hill-function ODE fitting — replacing the hand-tuned lumped model from the ACC paper with a data-driven plant model for optimal treatment design.
+              - Built a species-level gut microbial ODE model from cross-sectional shotgun metagenomics data using MICOM flux-balance analysis to infer growth rates, Dirichlet synthetic sampling for data augmentation, and Hill-function ODE fitting — replacing the hand-tuned lumped model from the ACC paper with a data-driven plant model for optimal treatment design.
 
       - company: "MURO Lab"
         companyUrl: "http://muro.ucsd.edu/"
@@ -164,12 +185,20 @@ params:
     enable: true
     index: false
     items:
+      - title: "Ph.D. Mechanical Engineering"
+        school:
+          name: "University of Wisconsin–Madison"
+          url: "https://www.engr.wisc.edu/department/mechanical-engineering/"
+        date: "Jun 2026 - Present"
+        content: |-
+          Osteo Engineering Lab — Advisor: Prof. David Dean. Working on the **Bendy Bot** project.
+
       - title: "M.S. Mechanical Engineering"
         school:
           name: "Stanford University"
           url: "https://me.stanford.edu/"
-        date: "Sep 2024 - Present"
-        GPA: "3.90"
+        date: "Sep 2024 - Jun 2026"
+        GPA: "3.91"
         content: |-
           **Depth:** Robotics & Kinematics | **Breadth:** Biomechanical Engineering, Automatic Controls
 
