@@ -5,6 +5,27 @@
 
 <!-- fontawesome -->
 <script defer src="{{ (printf "%sfontawesome-6/all-6.4.2.js" (.Site.Params.staticPath | default "")) | relURL }}"></script>
+
+<!-- Apply the theme's achievements styling to the split Publications & Awards sections -->
+<style>
+#publications a, #awards a { text-decoration: none; }
+#publications h3, #awards h3 { color: var(--text-secondary-color) !important; }
+#publications .card, #awards .card {
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    transition: box-shadow .2s linear, opacity .2s linear;
+    border: 2px solid transparent;
+}
+#publications .card h5, #awards .card h5 { color: var(--text-color) !important; opacity: 0.9; }
+#publications .card:hover, #awards .card:hover,
+#publications .card:focus, #awards .card:focus { border: 2px solid var(--text-color); transition: .3s; }
+#publications .card-text, #awards .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+#publications img, #awards img { border-radius: 0.7rem; }
+</style>
 {{ end }}
 
 {{ define "title" }}
