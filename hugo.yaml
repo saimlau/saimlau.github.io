@@ -343,17 +343,27 @@ params:
           - "UWB"
           - "Aerodynamics"
 
-  # Achievements / Publications
-  achievements:
+  # Publications
+  publications:
     enable: true
-    title: "Publications & Awards"
+    title: "Publications"
     items:
-      - title: "American Control Conference (ACC) 2026 (accepted)"
+      - title: "IEEE ICRA 2026 Workshop (Beyond Teleop)"
+        url: "https://openreview.net/forum?id=YDL4U3GtWB"
+        content: |-
+          Mo P., **Lau S.**, Gao J., Sadigh D., Grannen J. "Overcoming Distribution Shifts with Autonomous Embodied Data Collection." IEEE ICRA 2026 Workshop on Beyond Teleop.
+      - title: "American Control Conference (ACC) 2026"
         content: |-
           Gowri P., **Lau S.**, Mayalu M.N. "Optimal Control Strategies for Cutaneous Inflammatory Disease Treatment Using a Predictive Multi-scale Model." American Control Conference, 2026.
       - title: "SoCal Robotics Symposium 2023"
         content: |-
           Paritosh P., **Lau S.**, Atanasov N., Martinez S. "Distributed Variational Inference for Online Supervised Learning." Poster presentation, UC Irvine.
+
+  # Awards
+  awards:
+    enable: true
+    title: "Awards"
+    items:
       - title: "UCSD Provost Honors (2021-2024)"
         content: "Every quarter for three consecutive years. Magna Cum Laude, dual B.S. in ME + Mathematics."
       - title: "HK IVE Youth EV Design -- 3rd Place (2020)"
