@@ -235,22 +235,6 @@ params:
           - icon: fas fa-book
             url: https://saimailau.com/schedwall/
 
-      - title: "Cosmic Farm — Idle Clicker with an AI (MOMDP) Game Master"
-        content: |-
-          Web-based idle/clicker game where an AI game master observes your play style and adapts the experience in real-time using a MOMDP (Mixed Observability MDP) with Bayesian belief updates. Features Nova, an AI overseer character that comments on your behavior, a branching 4-chapter storyline with 3 endings, tech tree with 37 research upgrades, synergy and achievement systems, and 12 producer tiers scaling from wheat fields to cosmic nexuses.
-        image: /images/projects/cosmic-farm.png
-        badges:
-          - "TypeScript"
-          - "Vite"
-          - "MOMDP"
-          - "PWA"
-          - "Game Dev"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/saimlau/cosmic-farm
-          - icon: fas fa-globe
-            url: https://clicker.saimailau.com
-
       - title: "Voice-Controlled Bimanual Pick-and-Place Robot"
         content: |-
           Full-stack ROS 2 system for a bimanual mobile manipulator with voice commands (GCP STT), SAM3 object tracking, AnyGrasp grasp detection, LLM-based autonomous reasoning (Claude AI commander), and 3-phase PID navigation. MuJoCo simulation with custom ArUco scenes.
