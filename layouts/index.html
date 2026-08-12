@@ -1,5 +1,30 @@
 {{ define "head" }}
 <meta name="description" content={{ .Site.Params.description }}>
+
+<!-- Structured data: maps the English and Chinese (劉世邁) names for search discoverability without displaying it on the page -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Saimai Lau",
+  "alternateName": ["劉世邁", "Lau Sai-Mai"],
+  "url": "https://saimailau.com",
+  "jobTitle": "Ph.D. Student in Mechanical Engineering",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Wisconsin–Madison"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Stanford University" },
+    { "@type": "CollegeOrUniversity", "name": "University of California San Diego" }
+  ],
+  "sameAs": [
+    "https://github.com/saimlau",
+    "https://linkedin.com/in/saimailau"
+  ]
+}
+</script>
+
 <link rel="stylesheet" href="{{ (printf "%scss/index.css" (.Site.Params.staticPath | default "")) | relURL }}" media="all">
 <link rel="stylesheet" href="{{ (printf "%scss/projects.css" (.Site.Params.staticPath | default "")) | relURL }}" media="all">
 

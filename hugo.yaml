@@ -24,7 +24,7 @@ markup:
 
 params:
   title: "Saimai Lau"
-  description: "Saimai Lau - Robotics & Controls Researcher at Stanford University"
+  description: "Saimai Lau (劉世邁) - Robotics & Controls Researcher, Ph.D. student at the University of Wisconsin–Madison"
   favicon: "/images/sml_icon.svg"
   useBootstrapCDN: false
   mathjax: true
@@ -103,7 +103,7 @@ params:
 
       My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems.
 
-      Born and raised in Hong Kong with Taiwanese roots, I speak Cantonese and Mandarin natively alongside English. Outside of research, I rebuilt my secondary school's robotics team and established its first STEM club and makerspace.
+      Born and raised in Hong Kong with Taiwanese roots, I speak Cantonese and Mandarin natively alongside English. Outside of research, I rebuilt my secondary school's robotics team at [Buddhist Wong Fung Ling College](https://www.bwflc.edu.hk/) and established its first STEM club and makerspace.
     skills:
       enable: true
       title: "Technical skills:"
@@ -214,6 +214,14 @@ params:
           Completed dual degrees (ME + Mathematics, Applied Science) in **three years** with **Provost Honors every quarter**. 258 quarter units total, consistently taking 24-28 units/quarter (7-8 courses vs. the standard 4-5). Near-straight A+ in core engineering and mathematics courses.
 
           Key coursework: Linear Control, Signals & Systems, Embedded Control & Robotics, Spacecraft Guidance, Intro to Autonomous Vehicles, ML Algorithms, Stochastic Processes, Numerical Analysis, Real Analysis, Probability.
+
+      - title: "Secondary Education"
+        school:
+          name: "Buddhist Wong Fung Ling College"
+          url: "https://www.bwflc.edu.hk/"
+        date: "Aug 2015 - Jun 2021"
+        content: |-
+          Causeway Bay, Hong Kong. Rebuilt the school's robotics team and established its first STEM club and makerspace. Competed in regional robotics and engineering design competitions.
 
   # Projects
   projects:
