@@ -103,7 +103,7 @@ params:
 
       My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems.
 
-      Born and raised in Hong Kong with Taiwanese roots, I speak Cantonese and Mandarin natively alongside English. Outside of research, I rebuilt my secondary school's robotics team at [Buddhist Wong Fung Ling College](https://www.bwflc.edu.hk/) and established its first STEM club and makerspace.
+      Born and raised in Hong Kong with Taiwanese roots, I speak Cantonese and Mandarin natively alongside English.
     skills:
       enable: true
       title: "Technical skills:"
@@ -221,7 +221,7 @@ params:
           url: "https://www.bwflc.edu.hk/"
         date: "Aug 2015 - Jun 2021"
         content: |-
-          Causeway Bay, Hong Kong. Rebuilt the school's robotics team and established its first STEM club and makerspace. Competed in regional robotics and engineering design competitions.
+          Causeway Bay, Hong Kong. Played a key role in rebuilding the school's robotics team and establishing its first STEM club and makerspace. Competed in regional robotics and engineering design competitions.
 
   # Projects
   projects:
