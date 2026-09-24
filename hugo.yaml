@@ -73,7 +73,7 @@ params:
     subtitle: "Robotics, Controls & Human-Centered Systems"
     content: |-
       Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the Osteo Engineering Lab. I develop autonomous and interactive robotic systems through control theory, state estimation, and hands-on experimentation — and apply the same tools to biological systems, from gut microbial dynamics to inflammatory disease treatment. My long-term goal is to advance human-centered robotics for physical assistance, movement augmentation, and rehabilitation.
-    image: /images/me.png
+    image: /images/me.jpg
     bottomImage:
       enable: true
     button:
@@ -97,7 +97,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I am a Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the [Osteo Engineering Lab](http://www.osteoengineering.com/) with [Prof. David Dean](http://www.osteoengineering.com/) on the Bendy Bot project. I completed my M.S. in Mechanical Engineering at Stanford University (GPA 3.91), advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research), and dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
 
