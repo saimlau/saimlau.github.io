@@ -99,7 +99,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the [Osteo Engineering Lab](http://www.osteoengineering.com/) with [Prof. David Dean](http://www.osteoengineering.com/) on the Bendy Bot project. I completed my M.S. in Mechanical Engineering at Stanford University (GPA 3.91), advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research), and dual B.S. degrees in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
+      I am a Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working in the [Osteo Engineering Lab](http://www.osteoengineering.com/) with [Prof. David Dean](http://www.osteoengineering.com/) on the Bendy Bot project. I completed my M.S. in Mechanical Engineering at Stanford University (GPA 3.91), advised by [Prof. Allison Okamura](https://charm.stanford.edu/) (faculty) and [Prof. Michaelle Mayalu](https://mayalulab.stanford.edu/) (research), and a B.S. with a double major in Mechanical Engineering (Robotics & Controls) and Mathematics (Applied Science) at UC San Diego in three years, graduating Magna Cum Laude with a 3.95 GPA.
 
       My research interests lie at the intersection of **control theory**, **state estimation**, and **physical human-robot interaction**. I am particularly drawn to biomechatronics, haptic feedback, assistive/rehabilitation robotics, and multi-agent systems.
 
@@ -204,14 +204,14 @@ params:
 
           Key coursework: Machine Learning (Andrew Ng), Decision Making Under Uncertainty (Kochenderfer), Robot Autonomy (Bohg/Schwager), State Estimation & Filtering (Schwager), Optimal & Learning-Based Control (Pavone), Design & Control of Haptic Systems (Okamura), Biomechanics of Movement (Delp), Spectral Methods (Moin), Computer Graphics & Simulation (James/Liu), Soft Robotics (Zhao), Collaborative Robotics (Kennedy), FEA (Lew).
 
-      - title: "B.S. Mechanical Engineering (Robotics & Controls) & B.S. Mathematics-Applied Science"
+      - title: "B.S. Mechanical Engineering (Robotics & Controls) & Mathematics (Applied Science) — Double Major"
         school:
           name: "University of California San Diego"
           url: "https://ucsd.edu/"
         date: "Aug 2021 - Jun 2024"
         GPA: "3.95 -- Magna Cum Laude"
         content: |-
-          Completed dual degrees (ME + Mathematics, Applied Science) in **three years** with **Provost Honors every quarter**. 258 quarter units total, consistently taking 24-28 units/quarter (7-8 courses vs. the standard 4-5). Near-straight A+ in core engineering and mathematics courses.
+          Completed a **double major** (ME + Mathematics, Applied Science) on a single B.S. in **three years** with **Provost Honors every quarter**. 258 quarter units total, consistently taking 24-28 units/quarter (7-8 courses vs. the standard 4-5). Near-straight A+ in core engineering and mathematics courses.
 
           Key coursework: Linear Control, Signals & Systems, Embedded Control & Robotics, Spacecraft Guidance, Intro to Autonomous Vehicles, ML Algorithms, Stochastic Processes, Numerical Analysis, Real Analysis, Probability.
 
@@ -357,7 +357,7 @@ params:
     title: "Awards"
     items:
       - title: "UCSD Provost Honors (2021-2024)"
-        content: "Every quarter for three consecutive years. Magna Cum Laude, dual B.S. in ME + Mathematics."
+        content: "Every quarter for three consecutive years. Magna Cum Laude, B.S. double major in ME + Mathematics."
       - title: "HK IVE Youth EV Design -- 3rd Place (2020)"
         content: "Electric vehicle design competition in Hong Kong."
       - title: "HK PolyU Robotic Challenge -- 2nd Place (2018)"
