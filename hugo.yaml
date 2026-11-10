@@ -89,7 +89,7 @@ params:
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/saimailau
         - icon: fas fa-envelope
-          url: mailto:smlau@stanford.edu
+          url: mailto:slau23@wisc.edu
         - icon: fas fa-graduation-cap
           url: https://scholar.google.com
 
@@ -372,7 +372,7 @@ params:
     content: |-
       I'm always happy to discuss research, collaboration opportunities, or just chat about robotics and controls. Feel free to reach out!
     btnName: Email me
-    btnLink: mailto:smlau@stanford.edu
+    btnLink: mailto:slau23@wisc.edu
 
   footer:
     recentPosts:
